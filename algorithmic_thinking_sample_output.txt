@@ -14,7 +14,7 @@ Found new max prime: 71 | a= -61 | b= 971
 Maximum consecutive primes: 71 | a: -61 | b: 971
 ---------------------------------------------------------------------------------
 Final answer: -61*971 = -59231
-Run time: 182.98083925247192
+Run time: 243.74421191215515
 ---------------------------------------------------------------------------------
 
 #################################################################################
@@ -34,9 +34,9 @@ Found new max prime: 71 | a= -61 | b= 971
 Maximum consecutive primes: 71 | a: -61 | b: 971
 ---------------------------------------------------------------------------------
 Final answer: -61*971 = -59231
-Run time: 29.754907608032227
+Run time: 41.86280679702759
 ---------------------------------------------------------------------------------
-Faster than brute force approach by: 153.2259316444397 seconds
+Faster than brute force approach by: 201.88140511512756 seconds
 ---------------------------------------------------------------------------------
 
 #################################################################################
@@ -58,10 +58,10 @@ Found new max prime: 71 | a= -61 | b= 971
 Maximum consecutive primes: 71 | a: -61 | b: 971
 ---------------------------------------------------------------------------------
 Final answer: -61*971 = -59231
-Run time: 18.212239027023315
+Run time: 26.500581741333008
 ---------------------------------------------------------------------------------
-Faster than brute force approach by: 164.7686002254486 seconds
-Faster than improvement 1 by       : 11.542668581008911 seconds
+Faster than brute force approach by: 217.24363017082214 seconds
+Faster than improvement 1 by       : 15.36222505569458 seconds
 ---------------------------------------------------------------------------------
 
 #################################################################################
@@ -76,11 +76,11 @@ Worker 4 | Max prime: 6 | a= 503 | b= 53
 Maximum consecutive primes: 71 | a: -61 | b: 971
 ---------------------------------------------------------------------------------
 Final answer: -61*971 = -59231
-Run time: 7.459495544433594
+Run time: 9.304442405700684
 ---------------------------------------------------------------------------------
-Faster than brute force approach by: 175.52134370803833 seconds
-Faster than improvement 1 by       : 22.295412063598633 seconds
-Faster than improvement 1 and 2 by : 10.752743482589722 seconds
+Faster than brute force approach by: 234.43976950645447 seconds
+Faster than improvement 1 by       : 32.558364391326904 seconds
+Faster than improvement 1 and 2 by : 17.196139335632324 seconds
 ---------------------------------------------------------------------------------
 
 #################################################################################
@@ -96,20 +96,20 @@ Worker 4 | Max prime: 14 | a= 797 | b= 353
 Maximum consecutive primes: 71 | a: -61 | b: 971
 ---------------------------------------------------------------------------------
 Final answer: -61*971 = -59231
-Run time: 3.5894665718078613
+Run time: 4.388728857040405
 ---------------------------------------------------------------------------------
-Faster than brute force approach by  : 179.39137268066406 seconds
-Faster than improvement 1 by         : 26.165441036224365 seconds
-Faster than improvement 1 and 2 by   : 14.622772455215454 seconds
-Faster than improvement 1, 2 and 3 by: 3.8700289726257324 seconds
+Faster than brute force approach by  : 239.35548305511475 seconds
+Faster than improvement 1 by         : 37.47407793998718 seconds
+Faster than improvement 1 and 2 by   : 22.111852884292603 seconds
+Faster than improvement 1, 2 and 3 by: 4.915713548660278 seconds
 ---------------------------------------------------------------------------------
 
 #################################################################################
 Summary of run times:
 #################################################################################
-runtime_brute_force  : 182.98083925247192
-runtime_improvement_1: 29.754907608032227
-runtime_improvement_2: 18.212239027023315
-runtime_improvement_3: 7.459495544433594
-runtime_improvement_4: 3.5894665718078613
+runtime_brute_force  : 243.74421191215515
+runtime_improvement_1: 41.86280679702759
+runtime_improvement_2: 26.500581741333008
+runtime_improvement_3: 9.304442405700684
+runtime_improvement_4: 4.388728857040405
 ---------------------------------------------------------------------------------
