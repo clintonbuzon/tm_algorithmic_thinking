@@ -1,0 +1,115 @@
+#################################################################################
+Finding solution using brute force approach
+#################################################################################
+Found new max prime: 2 | a= -996 | b= 997
+Found new max prime: 3 | a= -499 | b= 997
+Found new max prime: 4 | a= -325 | b= 977
+Found new max prime: 5 | a= -245 | b= 977
+Found new max prime: 6 | a= -197 | b= 983
+Found new max prime: 7 | a= -163 | b= 983
+Found new max prime: 8 | a= -131 | b= 941
+Found new max prime: 9 | a= -121 | b= 947
+Found new max prime: 11 | a= -105 | b= 967
+Found new max prime: 71 | a= -61 | b= 971
+Maximum consecutive primes: 71 | a: -61 | b: 971
+---------------------------------------------------------------------------------
+Final answer: -61*971 = -59231
+Run time: 182.98083925247192
+---------------------------------------------------------------------------------
+
+#################################################################################
+Finding solution using brute force approach with improvement 1
+Using pre-generated list (SieveOfEratosthenes) of prime numbers
+#################################################################################
+Found new max prime: 2 | a= -996 | b= 997
+Found new max prime: 3 | a= -499 | b= 997
+Found new max prime: 4 | a= -325 | b= 977
+Found new max prime: 5 | a= -245 | b= 977
+Found new max prime: 6 | a= -197 | b= 983
+Found new max prime: 7 | a= -163 | b= 983
+Found new max prime: 8 | a= -131 | b= 941
+Found new max prime: 9 | a= -121 | b= 947
+Found new max prime: 11 | a= -105 | b= 967
+Found new max prime: 71 | a= -61 | b= 971
+Maximum consecutive primes: 71 | a: -61 | b: 971
+---------------------------------------------------------------------------------
+Final answer: -61*971 = -59231
+Run time: 29.754907608032227
+---------------------------------------------------------------------------------
+Faster than brute force approach by: 153.2259316444397 seconds
+---------------------------------------------------------------------------------
+
+#################################################################################
+Finding solution using brute force approach with improvement 1 and 2
+Reducing values of potential parameters for a and b
+Reduction 1: if a and b or both negative numbers
+Reduction 2: if a and b or both even numbers
+#################################################################################
+Found new max prime: 2 | a= -996 | b= 997
+Found new max prime: 3 | a= -499 | b= 997
+Found new max prime: 4 | a= -325 | b= 977
+Found new max prime: 5 | a= -245 | b= 977
+Found new max prime: 6 | a= -197 | b= 983
+Found new max prime: 7 | a= -163 | b= 983
+Found new max prime: 8 | a= -131 | b= 941
+Found new max prime: 9 | a= -121 | b= 947
+Found new max prime: 11 | a= -105 | b= 967
+Found new max prime: 71 | a= -61 | b= 971
+Maximum consecutive primes: 71 | a: -61 | b: 971
+---------------------------------------------------------------------------------
+Final answer: -61*971 = -59231
+Run time: 18.212239027023315
+---------------------------------------------------------------------------------
+Faster than brute force approach by: 164.7686002254486 seconds
+Faster than improvement 1 by       : 11.542668581008911 seconds
+---------------------------------------------------------------------------------
+
+#################################################################################
+Finding solution using brute force approach with improvement 1, 2, and parallelism
+Running with 4 workers in parallel
+#################################################################################
+Worker 1 | Max prime: 2 | a= -996 | b= 997
+Worker 2 | Max prime: 71 | a= -61 | b= 971
+Worker 3 | Max prime: 40 | a= 1 | b= 41
+Worker 4 | Max prime: 6 | a= 503 | b= 53
+---------------------------------------------------------------------------------
+Maximum consecutive primes: 71 | a: -61 | b: 971
+---------------------------------------------------------------------------------
+Final answer: -61*971 = -59231
+Run time: 7.459495544433594
+---------------------------------------------------------------------------------
+Faster than brute force approach by: 175.52134370803833 seconds
+Faster than improvement 1 by       : 22.295412063598633 seconds
+Faster than improvement 1 and 2 by : 10.752743482589722 seconds
+---------------------------------------------------------------------------------
+
+#################################################################################
+Finding solution using brute force approach
+with improvement 2, 3, and faster is_prime (is_prime_v2)
+Running with 4 workers in parallel
+#################################################################################
+Worker 1 | Max prime: 2 | a= -998 | b= 997
+Worker 2 | Max prime: 71 | a= -61 | b= 971
+Worker 3 | Max prime: 40 | a= 1 | b= 41
+Worker 4 | Max prime: 14 | a= 797 | b= 353
+---------------------------------------------------------------------------------
+Maximum consecutive primes: 71 | a: -61 | b: 971
+---------------------------------------------------------------------------------
+Final answer: -61*971 = -59231
+Run time: 3.5894665718078613
+---------------------------------------------------------------------------------
+Faster than brute force approach by  : 179.39137268066406 seconds
+Faster than improvement 1 by         : 26.165441036224365 seconds
+Faster than improvement 1 and 2 by   : 14.622772455215454 seconds
+Faster than improvement 1, 2 and 3 by: 3.8700289726257324 seconds
+---------------------------------------------------------------------------------
+
+#################################################################################
+Summary of run times:
+#################################################################################
+runtime_brute_force  : 182.98083925247192
+runtime_improvement_1: 29.754907608032227
+runtime_improvement_2: 18.212239027023315
+runtime_improvement_3: 7.459495544433594
+runtime_improvement_4: 3.5894665718078613
+---------------------------------------------------------------------------------
