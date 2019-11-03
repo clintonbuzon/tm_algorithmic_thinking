@@ -2,6 +2,23 @@
 
 By: John Clinton Buzon
 
+## Solution
+
+Answer would be `Final answer: -61*971 = -59231`.
+
+Runtimes below:
+
+```bash
+#################################################################################
+Summary of run times:
+#################################################################################
+runtime_brute_force  : 243.74421191215515
+runtime_improvement_1: 41.86280679702759
+runtime_improvement_2: 26.500581741333008
+runtime_improvement_3: 9.304442405700684
+runtime_improvement_4: 4.388728857040405
+```
+
 ## Part 1: Algorithmic thinking
 
 ### Brute force approach
@@ -32,7 +49,7 @@ By applying the following reductions, we reduce the number of iterations we chec
 
 Once all the workers are complete, we then scan for the output of the 4 workers and get the one which got the highest answer.
 
-### Improvement 4 - using a faster `is_prime` function
+### Improvement 4 - using a faster `is_prime()` function
 
 `brute_force_approach_with_improvement_4()` : Using `brute_force_approach_with_improvement_3()` we modify the code to use `is_prime_v2(n)` instead of SieveOfEratosthenes approach. Instead of scanning through range(1,n+1) each time we check if a number is prime, we iterate from 2 to sqrt(N) to find all the factors of n. This approach combines improvement 2 and 3 and is the fastest when tested.
 
