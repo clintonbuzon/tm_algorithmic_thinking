@@ -2,6 +2,10 @@
 
 By: John Clinton Buzon
 
+## Exam Question
+
+[Click here to check on exam question](https://github.com/thinkingmachines/de-exam)
+
 ## Solution
 
 Answer would be `Final answer: -61*971 = -59231`.
